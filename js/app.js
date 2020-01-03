@@ -15,6 +15,7 @@ function generate() {
 }
 
 /* check a duplicated number in array */
+//== check a duplicated number in array ==//
 function contains(numbers, number) {
   for(var i=0; i<numbers.length; i++) {
     if(numbers[i] == number) return true;
